@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -O0 -g -Wall
-LIBS = -lpanel -lncurses
+LIBS = -lpanel -lncurses -lmenu
 SRCS = $(wildcard *.c)
 BUILDDIR = build/
 EXES = $(addprefix $(BUILDDIR), $(SRCS:.c=))
